@@ -1,4 +1,3 @@
-```markdown
 # API-CRUD-RESTful
 
 Este projeto é uma implementação simples de um CRUD (Create, Read, Update e Delete) para um modelo de aluno utilizando Express, Sequelize e MySQL.
@@ -20,7 +19,6 @@ Para executar o projeto, siga os passos abaixo:
    ```bash
    npm install
    ```
-```
 2. Inicie o servidor utilizando o comando:
 
    ```bash
