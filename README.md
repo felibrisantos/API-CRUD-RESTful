@@ -46,10 +46,7 @@ A seguir, alguns exemplos de como usar o projeto:
 ### Criar um aluno
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{
-  "nome": "João da Silva",
-  "idade": 20
-}' http://localhost:3000/alunos
+curl -X POST -H "Content-Type: application/json" -d '{"nome": "João da Silva", "idade": 20}' http://localhost:3000/alunos
 ```
 
 ### Listar todos os alunos
@@ -67,10 +64,7 @@ curl http://localhost:3000/alunos/1
 ### Atualizar um aluno
 
 ```bash
-curl -X PUT -H "Content-Type: application/json" -d '{
-  "nome": "Maria da Silva",
-  "idade": 21
-}' http://localhost:3000/alunos/1
+curl -X PUT -H "Content-Type: application/json" -d '{"nome": "Maria da Silva", "idade": 21}' http://localhost:3000/alunos/1
 ```
 
 ### Deletar um aluno
