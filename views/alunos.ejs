@@ -1,0 +1,18 @@
+<!-- views/alunos.ejs -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lista de Alunos</title>
+  </head>
+  <body>
+    <h1>Lista de Alunos</h1>
+    <ul>
+      <% for (const aluno of alunos) { %>
+      <li>
+        ID: <%= aluno.id %>, Nome: <%= aluno.nome %> (Idade: <%= aluno.idade %>)
+      </li>
+      <% } %>
+    </ul>
+  </body>
+</html>
