@@ -22,8 +22,13 @@ Para executar o projeto, siga os passos abaixo:
 2. Inicie o servidor utilizando o comando:
 
    ```bash
-   npm start
+   node app.js
    ```
+## Visualização
+
+Para visualizar a lista de alunos, basta utilizar o método GET/alunos no localhost
+
+- Por exemplo: http://localhost:3000/alunos/ 
 
 ## Operações CRUD
 
