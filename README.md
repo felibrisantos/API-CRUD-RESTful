@@ -1,4 +1,4 @@
-# API-CRUD-RESTful
+# Atividade Avaliativa WEB 2
 
 Este projeto é uma implementação simples de um CRUD (Create, Read, Update e Delete) para um modelo de aluno utilizando Express, Sequelize e MySQL.
 
