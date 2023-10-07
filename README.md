@@ -26,7 +26,7 @@ Para executar o projeto, siga os passos abaixo:
    ```bash
    npm start
    ```
-
+```
 ## Operações CRUD
 
 Para realizar as operações CRUD, você pode utilizar o seguinte comando no terminal Bash:
